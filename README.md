@@ -10,10 +10,10 @@ The website provides a simple yet effective user interface for exploring various
 
 ### To run the TravelWebsite, follow these steps:
 
-**1. Download the project files:** Ensure you have all the necessary files and folders. <br>
-**2. Locate the main file:** The main file for this project is tim.html. <br>
-**3. Open the main file:** Open tim.html in your preferred web browser. You can do this by double-clicking the file or right-clicking and selecting "Open with" followed by your browser choice. <br>
-**4. Explore the website:** Navigate through the pages to explore the features and content we have created. <br>
+**1. Download the project files:** Ensure you have all the necessary files and folders. <br><br>
+**2. Locate the main file:** The main file for this project is tim.html. <br><br>
+**3. Open the main file:** Open tim.html in your preferred web browser. You can do this by double-clicking the file or right-clicking and selecting "Open with" followed by your browser choice. <br><br>
+**4. Explore the website:** Navigate through the pages to explore the features and content we have created. <br><br>
 
 #### This simple setup allows you to view our project as intended and explore the basic functionalities we've implemented.
 
