@@ -1,0 +1,74 @@
+<html>
+<head>
+<link rel="stylesheet" href="assets/css/total.css">
+<div class="Z2">
+<table>
+<td ><img src="assets/images/fe808722bd82ed2f9d93c10a43e38023-removebg-preview.png" id="h2"></img></td>
+<nav>
+<td id="h1"><a href="tim.html">Home</a></td>
+<td id="h1"><a href="destination.html">Destinations</a></td>
+<td id="h1"><a href="trips.html">Trips</a></td>
+<td id="h1"><a href="contact us (1).html">Contact Us</a></td>
+<td id="h1"><a href="about.html">About Us</a></td>
+<td id="h1"><a href="#">FeedBack</a></td>
+</nav>
+</table></div>
+</head>
+<body class="I67">
+<img src="assets/images/feedback.jpg" width="1503px" height="550px"></img>
+<br><br>
+<b class="I1">FeedBack</b>
+<hr size="4" noshade> 
+<form>
+<table>
+<tr>
+<td><p class="I4">Name :</td><td><input type="textbox" placeholder="Enter Name" class="I56" id="name"></p></td></tr>
+<tr><td><p class="I4">Address :</td><td><textarea placeholder="Enter Address" class="I56" rows="5" cols="19" id="address"></textarea></p></td></tr>
+<tr><td><p class="I4">Email :</td><td><input type="email" placeholder="Enter Email"  class="I56" id="email"></p></td></tr>
+<tr><td><p class="I4">Your opinion :</td><td><textarea placeholder="Enter your feedback" class="I56" rows="5" cols="19" id="feed"></textarea></p></td></tr>
+</table>
+<p><button type="sumbit" class="I32" onclick="so()">Sumbit</button></form>
+<script>
+function so()
+{
+var name_in=document.getElementById("name").value;
+var address_in=document.getElementById("address").value;
+var email_in=document.getElementById("email").value;
+var feed_in=document.getElementById("feed").value;
+if(name_in==0)
+{
+alert("Name should not be empty");
+return false;
+}
+if(address_in==0)
+{
+alert("Address should not be empty");
+return false;
+}
+if(email_in==0)
+{
+alert("Email should not be empty");
+return false;
+}
+if(feed_in==0)
+{
+alert("Opinion should not be empty");
+return false;
+}
+else
+{
+alert("Feedback saved successfully");
+}
+}
+</script>
+<br><br>
+<footer><div class="f1">
+<br><br>
+<p class="p2"> Contact Us</p>
+<hr size="4" width="1000" color="white" >
+<p class="p2"> 📌 Surat, Gujarat, India </p>
+<p class="p2"> 📧 theboysofce@gmail.com </p>
+<br><br>
+</div></footer>    
+</body>
+</html>
